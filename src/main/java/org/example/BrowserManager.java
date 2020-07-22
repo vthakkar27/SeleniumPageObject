@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 public class BrowserManager extends Util {
     public void initialiseMethod () {
         //setting up chrome driver path
-        System.setProperty("webdriver.chrome.driver", "src\\test\\BrowserDrivers\\chromedriver_win32 (5)");
+        System.setProperty("webdriver.chrome.driver", "src\\test\\BrowserDrivers\\chromedriver.exe");
         //creating object to open chrome driver
         ChromeOptions options = new ChromeOptions();
         options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});

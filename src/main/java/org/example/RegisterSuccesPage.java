@@ -8,7 +8,7 @@ public class RegisterSuccesPage extends Util{
     String expectedRegisterSuccessMessage = "Your registration completed";
 
     public void verifyUserRegisterSuccessfully(){
-        Assert.assertEquals(_registerSuccessMessage,expectedRegisterSuccessMessage);
+        Assert.assertEquals(getTextFromElement(_registerSuccessMessage),expectedRegisterSuccessMessage);
     }
 
 }
