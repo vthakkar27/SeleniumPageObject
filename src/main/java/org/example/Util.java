@@ -62,7 +62,8 @@ public class Util extends BasePage {
         try
         {
             // String ScreenShotName = new String();
-            FileUtils.copyFile(scrFile, new File(("src\\ScreenShort" + NameOfScreenshot + ".png")));
+           // FileUtils.copyFile(scrFile, new File(("src\\ScreenShort\\" + NameOfScreenshot + ".png")));
+            FileUtils.copyFile(scrFile, new File("src\\ScreenShort\\" + NameOfScreenshot + ".png"));
 
         } catch (IOException e) {
             e.printStackTrace();

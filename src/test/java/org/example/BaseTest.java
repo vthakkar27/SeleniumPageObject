@@ -16,13 +16,14 @@ public class BaseTest  extends Util{
 
   @AfterMethod
 
-    public void CloseBrowser(ITestResult result) { //Method to close browser
-        if (ITestResult.FAILURE == result.getStatus()) {
+    public void CloseBrowser(ITestResult result)
+  { //Method to close browser
+        if (ITestResult.FAILURE == result.getStatus())
+        {
             ScreenShotCapture(result.getName()+timestamp());
-
         }
         browserManager.closingMethod();
-    }
+  }
    // public void closeBrowser(){
    //    browserManager.closingMethod();
 
