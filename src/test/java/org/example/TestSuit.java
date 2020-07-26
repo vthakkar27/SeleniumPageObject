@@ -14,7 +14,7 @@ public class TestSuit extends BaseTest {
     Computer computer = new Computer();//creating object for computer
     Desktops desktops = new Desktops();//creating object for Desktops
     emailSuccesPage emailSuccesPage = new emailSuccesPage();//creating object for emailsuccesspage
-    BookCart bookCart = new BookCart();//creating object for bookcart
+    BookCart bookCart = new BookCart();//creating object for bookCart
     FaceBookPage faceBookPage = new FaceBookPage();
     OnlineStore onlineStore = new OnlineStore();
     IFrameChar iFrameChar = new IFrameChar();
